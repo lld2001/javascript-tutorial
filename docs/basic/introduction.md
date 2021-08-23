@@ -10,7 +10,7 @@ JavaScript 也是一种嵌入式（embedded）语言。它本身提供的核心�
 
 从语法角度看，JavaScript 语言是一种“对象模型”语言。各种宿主环境通过这个模型，描述自己的功能和操作接口，从而通过 JavaScript 控制这些功能。但是，JavaScript 并不是纯粹的“面向对象语言”，还支持其他编程范式（比如函数式编程）。这导致几乎任何一个问题，JavaScript 都有多种解决方法。阅读本书的过程中，你会诧异于 JavaScript 语法的灵活性。
 
-JavaScript 的核心语法部分相当精简，只包括两个部分：基本的语法构造（比如操作符、控制结构、语句）和标准库（就是一系列具有各种功能的对象比如`Array`、`Date`、`Math`等）。除此之外，各种宿主环境提供额外的 API（即只能在该环境使用的接口），以便 JavaScript 调用。以浏览器为例，它提供的额外 API 可以分成三大类。
+JavaScript 的核心语法部分相当精简，只包括两个部分：基本的语法构造（比如操作符、控制结构、语句）和标准库（就是一系列具有各种功能的对象比如 `Array` 、 `Date` 、 `Math` 等）。除此之外，各种宿主环境提供额外的 API（即只能在该环境使用的接口），以便 JavaScript 调用。以浏览器为例，它提供的额外 API 可以分成三大类。
 
 - 浏览器控制类：操作浏览器
 - DOM 类：操作网页的各种元素
@@ -147,14 +147,14 @@ JavaScript 是一种开放的语言。它的标准 ECMA-262 是 ISO 国际标准
 
 进入 Chrome 浏览器的“控制台”，有两种方法。
 
-- 直接进入：按下`Option + Command + J`（Mac）或者`Ctrl + Shift + J`（Windows / Linux）
-- 开发者工具进入：开发者工具的快捷键是 F12，或者`Option + Command + I`（Mac）以及`Ctrl + Shift + I`（Windows / Linux），然后选择 Console 面板
+- 直接进入：按下 `Option + Command + J` （Mac）或者 `Ctrl + Shift + J` （Windows / Linux）
+- 开发者工具进入：开发者工具的快捷键是 F12，或者 `Option + Command + I` （Mac）以及 `Ctrl + Shift + I` （Windows / Linux），然后选择 Console 面板
 
-进入控制台以后，就可以在提示符后输入代码，然后按`Enter`键，代码就会执行。如果按`Shift + Enter`键，就是代码换行，不会触发执行。建议阅读本教程时，将代码复制到控制台进行实验。
+进入控制台以后，就可以在提示符后输入代码，然后按 `Enter` 键，代码就会执行。如果按 `Shift + Enter` 键，就是代码换行，不会触发执行。建议阅读本教程时，将代码复制到控制台进行实验。
 
 作为尝试，你可以将下面的程序复制到“控制台”，按下回车后，就可以看到运行结果。
 
-```javascript
+```js
 function greetMe(yourName) {
   console.log('Hello ' + yourName);
 }
